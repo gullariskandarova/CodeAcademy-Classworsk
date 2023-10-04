@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+header {
+  background: url("./harry-potter.jpg");
+  background-position: top;
+  height: 280px;
+}
+h1{
+  color: white;
+}
+ul{
+  display: flex;
+}
+#sec1{
+  height: 100px;
+  width: 150px;
+
+}
+h3{
+  color: yellow;
+}
+p{
+  color: blue;
+}
+span{
+  color: orange;
+}
+div{
+  display: flex;
+  background-color: green;
+}
+#p2{
+  color: rgb(166, 238, 238);
+}
+#sec2{
+height: 100px;
+width: 150px;
+}
+#sec3{
+  height: 100px;
+  width: 150px;
+}
+.img{
+  width: 80px;
+  height: 80px;
+}
+table, th, td{
+  border: solid 2px blue;
+  border-collapse: collapse;
+  padding: 12px;
+
+}
+.table{
+  background-color: turquoise;
+  height: 100px;
+}
+#sec4{
+  height: 150px;
+}
