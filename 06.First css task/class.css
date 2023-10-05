@@ -3,7 +3,8 @@ table, th, td{
     width: 600px;
     height: 50px;
 }
-.color{
-background-color: rgba(20, 245, 159, 0.8);
-color: green;
+
+.bodyTable tr:nth-child(odd) {
+    background-color: seagreen;
+    color: seashell;
 }
