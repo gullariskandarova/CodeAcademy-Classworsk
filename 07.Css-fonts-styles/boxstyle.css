@@ -1,7 +1,11 @@
+
 #one, #two, #three, #four{
     display: flex;
 }
 
+.center {
+    width: 100% !important;
+}
 #one {
     gap: 70px;
 }
