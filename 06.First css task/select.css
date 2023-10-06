@@ -9,7 +9,7 @@ a {
   text-decoration: none;
 }
 header {
-  background: url("./harry-potter.jpg");
+  background: url("./image/harry-potter.jpg");
   background-position: top;
   height: 280px;
 }
@@ -64,4 +64,23 @@ table, th, td{
 }
 #sec4{
   height: 150px;
+}
+a img{
+  height: 100px;
+  width: 100px;
+}
+#input{
+  background-color: rgb(7, 195, 241);
+}
+
+#input ::placeholder {
+  color: red;
+}
+
+#input input {
+  border-radius: 20px;
+  padding: 7px;
+}
+button{
+  
 }
