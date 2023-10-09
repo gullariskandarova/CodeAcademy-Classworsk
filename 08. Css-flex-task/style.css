@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+section{
+    margin-top: 10%;
+}
 .container{
     width: 100vw;
     height: 100vh;
@@ -11,18 +14,22 @@ header{
     height: 10%;
     background-color: black;
 }
-.bbox .box{
-    width: 20vw;
-    height: 20vh;
-    background-color: teal;
-    border-radius: 10px;
-}
+
 .bbox{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-top: 5%;
-    gap: 3%;
+    margin: 0 10%;
+    gap: 30px;
+}
+
+.bbox .box{
+    width: 30%;
+    height: 20vh;
+    background-color: teal;
+    border-radius: 10px;
 }
 
 footer{
