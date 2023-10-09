@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    height: 10%;
+    background-color: black;
+}
+.bbox .box{
+    width: 20vw;
+    height: 20vh;
+    background-color: teal;
+    border-radius: 10px;
+}
+.bbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    gap: 3%;
+}
+
+footer{
+    height: 5vh;
+    margin: 10%;
+    background-color: rgb(255, 90, 118);
+    border-radius: 5px;
+}
