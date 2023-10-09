@@ -4,6 +4,5 @@ table, th, td{
     height: 50px;
 }
 .color{
-background-color: rgba(20, 245, 159, 0.8);
-color: green;
+    background-color: rgb(146, 146, 255);
 }
