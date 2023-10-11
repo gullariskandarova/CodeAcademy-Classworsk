@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section{
+    height: 200vh;
+}
+.img{
+    background-image: url("https://images.pexels.com/photos/16170191/pexels-photo-16170191/free-photo-of-izlanda-kent-peyzaj-kum.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    height: 40vh;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    color: rgb(153, 255, 0);
+    background-color: black;
+    height: 80px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
+.teal{
+    height: 100%;
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.teal .blue{
+    height: 200px;
+    width: 70%;
+    background-color: rgb(0, 0, 255);
+    margin-top: 5rem;
+}
