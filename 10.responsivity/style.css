@@ -1,79 +1,61 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
 }
-.container{
-    max-width: 1200px;
-    margin: 0 auto; 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header {
+  background-color: rgb(0, 73, 0);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 15vh;
+  padding: 0 5%;
+}
+.header h2,
+.header a {
+  color: white;
+}
+nav ul {
+  display: flex;
+  column-gap: 40px;
+}
+.fa-solid.fa-bars {
+  color: white;
+  display: none;
+}
+.container .header .signup {
+  padding: 10px;
+  color: rgb(0, 73, 0);
+  background-color: rgb(202, 255, 202);
+  border: 0;
+  border-radius: 10px;
+}
+.container .header .login {
+  padding: 10px;
+  color: white;
+  background-color: transparent;
+  border: 0;
 }
 
-
-/* HEADER SECTION  */
-#head {
-    background-color: rgb(0, 65, 65); 
-}
-.container .header .header-h1{
-    color: white;
-}
-.container .header{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    height: 80px;  
-    align-items: center;
-}
-.container .header nav ul{
-    display: flex;  
-    list-style: none;
-    gap: 30px;
-    justify-content: space-around;
-}
-.container .header nav ul li a{
-    color: white;
-}
-.login{
-    background: rgb(0, 65, 65);
-    color: white;
-}
-.desktop-header{
-    display: flex;
-}
-
-.fa-solid.fa-bars{
-    color: white;
-}
-.signin, .login{
-    padding: 8px;
-}
-.signin{
-    background-color: #b8e4da;
-    border-radius: 10px;
-}
-.icons-hamburger {
+@media screen and (max-width: 767px) {
+  nav ul {
     display: none;
-}
-
-
-@media only screen and (max-width: 767px){
-    .container {
-      padding: 0 5%;
-        }
-    .header nav {
+  }
+  .container .header .signup {
     display: none;
-        }
-    .icons-hamburger {
-            display: inline-block;
-        }
-}
-
-/* BANNER SECTION  */
-
-#banner .banner {
-    display: flex;
-    justify-content: center;
-    padding-top: 30px;
-    
+  }
+  .container .header .login {
+    display: none;
+  }
+  .fa-solid.fa-bars{
+    display: block;
+  }
 }
