@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 100%;
+}
+.container.inner {
+    height: 90vh;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.home{
+    height: 100vh;
+    background-image: url("./images/image\ 3.png");
+    background-size: cover;
+}
+.container .header{
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container .header nav{
+    display: flex;
+    position: relative;
+}
+.container .header nav ul{
+    display: flex;
+    gap: 100px;
+    position: absolute;
+    left: 40%;
+}
+.container .header nav ul li a{
+    color: white;
+}
+h1.Asset, p{
+    color: white;
+}
+.section-main .main input{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 120px;
+    border: none;
+    background-color: rgb(255, 254, 254, 0.5);
+    border-radius: 25px;
+}
+::placeholder{
+    color: white;
+}
+.section-main .main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 10rem;
+}
