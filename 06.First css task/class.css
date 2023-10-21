@@ -3,6 +3,14 @@ table, th, td{
     width: 600px;
     height: 50px;
 }
+<<<<<<< HEAD
 .color{
     background-color: rgb(146, 146, 255);
 }
+=======
+
+.bodyTable tr:nth-child(odd) {
+    background-color: seagreen;
+    color: seashell;
+}
+>>>>>>> 316dd0d2a06ca9f7698c66fdf227b33c301040f3

@@ -1,0 +1,77 @@
+span{
+    font-weight: 900 !important;
+}
+.text1 {
+  font-size: 36px;
+  font-family: "Marko One", serif;
+  color: blueviolet;
+  text-shadow: 3px 3px 5px;
+}
+
+.text2 {
+  font-size: 25px;
+  font-family: "Roboto Mono", monospace;
+  color: rgb(72, 0, 241);
+  text-decoration: underline;
+}
+.text3 {
+  font-family: "Martian Mono", monospace;
+  color: black;
+  letter-spacing: 4px;
+}
+
+.text4 {
+  font-size: 25px;
+  color: brown;
+  font-family: "Young Serif", serif;
+}
+
+.text5 {
+  font-family: "Marko One", serif;
+  font-size: 20px;
+  color: green;
+}
+.text6 {
+  font-family: "Martian Mono", monospace;
+  font-size: 10px;
+  color: rgb(12, 53, 12);
+}
+
+.text7{
+    font-family: "Marko One", serif;
+    font-size: 20px;
+    color: rgb(34, 0, 128);
+}
+
+.text8{
+    font-family: "Martian Mono", monospace;
+  color: rgb(63, 0, 0);
+}
+
+.text9{
+    font-size: 25px;
+  font-family: "Roboto Mono", monospace;
+  color: rgb(241, 137, 0);
+  
+}
+
+.text10{
+    font-family: "Martian Mono", monospace;
+  color: rgb(88, 80, 0);
+}
+
+.text11{
+    font-family: "Martian Mono", monospace;
+  color: rgb(255, 0, 0);
+  font-size: 18px;
+}
+
+.text12{
+    font-size: 19px;
+  font-family: "Marko One", serif;
+  color: blueviolet;
+}
+
+.text13{
+    color: rgb(0, 61, 61);
+}
