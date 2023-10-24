@@ -1,0 +1,76 @@
+#about-two {
+  .about {
+    padding: 10vh 0;
+    .heading {
+      padding-bottom: 4rem;
+      h2 {
+        font-family: $font-h;
+        font-size: 40px;
+        line-height: 50px;
+        font-weight: 400;
+        letter-spacing: 0.2px;
+        text-align: center;
+      }
+      p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        text-align: center;
+        color: $text-color;
+      }
+    }
+    .video_and_contect {
+      display: flex;
+      justify-content: space-between;
+      gap: 6rem;
+      .video {
+        position: relative;
+        padding: 30vh 0;
+        width: 50%;
+        background-image: url(../images/groupish.avif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        img {
+          position: absolute;
+          left: 40%;
+          bottom: 30%;
+        }
+      }
+      .content {
+        width: 50%;
+        margin-left: 3rem;
+        h2 {
+          font-family: $font-h;
+          font-size: 40px;
+          line-height: 50px;
+          font-weight: 400;
+          letter-spacing: 0.2px;
+        }
+        p {
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 20px;
+          letter-spacing: 0.2px;
+          color: $text-color;
+          padding-bottom: 10px;
+        }
+        .vector-2{
+            display: flex;
+            gap: 20px;
+        }
+        .vector-3{
+            display: flex;
+            gap: 20px;
+        }
+      }
+    }
+  }
+
+  #footer{
+    background-color: #FAFAFA;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+  }
+}

@@ -1,31 +1,142 @@
-#home{
-    background-image: url("../images/cover.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    header{
-        .container{
-            .header{
-                @include flex;
-                align-items: flex-start;
-                h1{
-                    font-size: 30px;
-                    font-weight: 700;
-                }
-                @include flex();
-                nav{
-                    ul{
-                        @include flex();
-                        gap: 2rem;
-                        li{
-                            a{
-                                color: $text-color;
-                            }
-                        }
-                    }
-                }
-            }
+#home {
+  background-image: url("../images/cover.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  header {
+    height: 10vh;
+    .container {
+      .header {
+        @include flex;
+        align-items: center;
+        padding-top: 1rem;
+        h1 {
+          font-family: $font-h;
+          font-size: 24px;
+          font-weight: 700;
+          letter-spacing: 0.1px;
         }
+        @include flex();
+        nav {
+          ul {
+            @include flex();
+            gap: 2rem;
+            li {
+              a {
+                color: $text-color;
+              }
+            }
+          }
+        }
+      }
     }
+  }
+}
+#hero-banner {
+  height: 90vh;
+
+  .content {
+    width: 50%;
+
+    h1 {
+      font-size: 58px;
+      font-weight: 900;
+      font-family: $font-h;
+      padding-top: 3rem;
+      line-height: 65px;
+      letter-spacing: 0.2px;
+    }
+    h4 {
+      font-family: $font-h4;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 30px;
+      letter-spacing: 0.2;
+      color: $text-color;
+    }
+    .Get-Quote-Now {
+      margin-top: 1rem;
+      @extend %primary-btn;
+      background-color: $button-color;
+      color: white;
+    }
+    .Learn-More {
+      margin-top: 1rem;
+      @extend %primary-btn;
+      color: $button-color;
+    }
+  }
+  .boxes {
+    padding-top: 50px;
+    @include flex;
+    gap: 50px;
+    .box {
+      width: 30%;
+      padding: 2rem;
+      background-color: #fff;
+      box-shadow: 1px 1px 15px;
+      h3 {
+        font-family: $font-h;
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: 0.1px;
+        line-height: 30px;
+      }
+      p {
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 0.2px;
+        color: $text-color;
+        line-height: 20px;
+      }
+      &:nth-child(3) {
+        background-color: #295c7a;
+      }
+    }
+  }
+}
+
+#about {
+  margin-top: 5rem;
+  text-align: center;
+  .heading {
+    h2 {
+      font-family: $font-h;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 50px;
+      letter-spacing: 0.2px;
+    }
+    p {
+      font-size: 14px;
+      font-weight: 400;
+      letter-spacing: 0.2px;
+      line-height: 20px;
+      color: $text-color;
+    }
+  }
+  .boxes {
+    @include flex;
+    margin: 2rem 0;
+    .box {
+      width: 25%;
+      h2 {
+        font-family: $font-h;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        letter-spacing: 0.2px;
+      }
+      h5 {
+        font-family: $font-h;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        text-align: center;
+        color: $text-color;
+      }
+    }
+  }
 }

@@ -62,25 +62,42 @@ a {
   padding: 0 5%;
 }
 
+h1, h2, h3, h4 {
+  color: #252B42;
+}
+
+#hero-banner .content .Learn-More, #hero-banner .content .Get-Quote-Now {
+  width: 180px;
+  height: 48px;
+  border: 1px solid #784F33;
+  border-radius: 37px;
+}
+
 #home {
   background-image: url("../images/cover.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 100%;
+}
+#home header {
+  height: 10vh;
 }
 #home header .container .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  align-items: flex-start;
+  align-items: center;
+  padding-top: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 #home header .container .header h1 {
-  font-size: 30px;
+  font-family: "Martel", serif;
+  font-size: 24px;
   font-weight: 700;
+  letter-spacing: 0.1px;
 }
 #home header .container .header nav ul {
   display: flex;
@@ -90,4 +107,184 @@ a {
 }
 #home header .container .header nav ul li a {
   color: #737373;
+}
+
+#hero-banner {
+  height: 90vh;
+}
+#hero-banner .content {
+  width: 50%;
+}
+#hero-banner .content h1 {
+  font-size: 58px;
+  font-weight: 900;
+  font-family: "Martel", serif;
+  padding-top: 3rem;
+  line-height: 65px;
+  letter-spacing: 0.2px;
+}
+#hero-banner .content h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.2;
+  color: #737373;
+}
+#hero-banner .content .Get-Quote-Now {
+  margin-top: 1rem;
+  background-color: #784F33;
+  color: white;
+}
+#hero-banner .content .Learn-More {
+  margin-top: 1rem;
+  color: #784F33;
+}
+#hero-banner .boxes {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+#hero-banner .boxes .box {
+  width: 30%;
+  padding: 2rem;
+  background-color: #fff;
+  box-shadow: 1px 1px 15px;
+}
+#hero-banner .boxes .box h3 {
+  font-family: "Martel", serif;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.1px;
+  line-height: 30px;
+}
+#hero-banner .boxes .box p {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  color: #737373;
+  line-height: 20px;
+}
+#hero-banner .boxes .box:nth-child(3) {
+  background-color: #295c7a;
+}
+
+#about {
+  margin-top: 5rem;
+  text-align: center;
+}
+#about .heading h2 {
+  font-family: "Martel", serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+}
+#about .heading p {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  color: #737373;
+}
+#about .boxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0;
+}
+#about .boxes .box {
+  width: 25%;
+}
+#about .boxes .box h2 {
+  font-family: "Martel", serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+}
+#about .boxes .box h5 {
+  font-family: "Martel", serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #737373;
+}
+
+#about-two .about {
+  padding: 10vh 0;
+}
+#about-two .about .heading {
+  padding-bottom: 4rem;
+}
+#about-two .about .heading h2 {
+  font-family: "Martel", serif;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
+#about-two .about .heading p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #737373;
+}
+#about-two .about .video_and_contect {
+  display: flex;
+  justify-content: space-between;
+  gap: 6rem;
+}
+#about-two .about .video_and_contect .video {
+  position: relative;
+  padding: 30vh 0;
+  width: 50%;
+  background-image: url(../images/groupish.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#about-two .about .video_and_contect .video img {
+  position: absolute;
+  left: 40%;
+  bottom: 30%;
+}
+#about-two .about .video_and_contect .content {
+  width: 50%;
+  margin-left: 3rem;
+}
+#about-two .about .video_and_contect .content h2 {
+  font-family: "Martel", serif;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+}
+#about-two .about .video_and_contect .content p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  padding-bottom: 10px;
+}
+#about-two .about .video_and_contect .content .vector-2 {
+  display: flex;
+  gap: 20px;
+}
+#about-two .about .video_and_contect .content .vector-3 {
+  display: flex;
+  gap: 20px;
+}
+#about-two #footer {
+  background-color: #FAFAFA;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=style.css.map */

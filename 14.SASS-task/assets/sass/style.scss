@@ -1,6 +1,7 @@
 @import "./base/reset";
+@import "./utils/variable";
 @import "./base/global";
 @import "./utils/mixin";
-@import "./utils/variable";
 @import "./components/buttons";
 @import "./pages/home";
+@import "./pages/about";
