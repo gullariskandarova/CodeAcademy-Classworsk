@@ -1,0 +1,16 @@
+header {
+  .header {
+    @include flex();
+
+    nav {
+      ul {
+        @include flex();
+        li {
+          a {
+            color: red;
+          }
+        }
+      }
+    }
+  }
+}
